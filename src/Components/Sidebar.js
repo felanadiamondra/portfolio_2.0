@@ -6,6 +6,7 @@ import Skill from "./Skill";
 import Project from "./Project";
 import Education from "./Education";
 import Work from "./Work";
+import Certification from "./Certification";
 
 const Sidebar = () =>{
     return(
@@ -170,13 +171,14 @@ const Sidebar = () =>{
                 </button>
             </form>
             </nav>
-            <div class="absolute ml-20">
+            <div class="ml-20 w-screen">
             <Routes>
                 <Route path="/" element={<Bio/>}/>
                 <Route path="/Skill" element={<Skill/>}/>
                 <Route path="/Project" element={<Project/>}/>
                 <Route path="/Education" element={<Education/>}/>
                 <Route path="/Work" element={<Work/>}/>
+                <Route path="/Certification" element={<Certification/>}/>
             </Routes>
             </div>
             </aside>

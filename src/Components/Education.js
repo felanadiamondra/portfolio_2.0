@@ -1,7 +1,7 @@
 const Education = () =>{
     return(
     <div class="grid grid-cols-2 gap-4">
-        <div class="animate__animated animate__fadeInUp">
+        <div class="animate__animated animate__fadeIn">
             <div class="w-10/12 mx-auto relative py-20">
             <h1 class="text-center font-bold text-blue-500">My education timeline :)</h1>
             <div class="border-l-2 mt-10">
@@ -48,7 +48,25 @@ const Education = () =>{
             </div>
         </div>
         <div>
-            02
+            <div class="mx-10">
+                <div class="grid py-32 grid-flow-col grid-rows-2 grid-cols-3 animate__animated animate__fadeIn">
+                    <div class="transform scale-110 -rotate-6">
+                        <img src={require("../images/image.jpg")} alt="" loading="lazy"/>
+                    </div>
+                    <div class="col-start-3 transform scale-75 rotate-6 translate-x-2 translate-y-15">
+                        <img src={require("../images/image.jpg")} alt="" loading="lazy"/>
+                    </div>
+                    {/* <div class="transform scale-150 translate-y-11">
+                        <img src={require("../images/image.jpg")} alt="" loading="lazy"/>
+                    </div> */}
+                    {/* <div class="transform translate-y-24">
+                        <img src={require("../images/image.jpg")} alt="" loading="lazy"/>
+                    </div> */}
+                    {/* <div class="row-start-1 col-start-2 col-span-2 transform-x-20 translate-y-4">
+                        <img src={require("../images/image.jpg")} alt="" loading="lazy"/>
+                    </div> */}
+                </div>
+            </div>
         </div>
     </div>
     )
