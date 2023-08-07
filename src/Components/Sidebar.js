@@ -129,9 +129,9 @@ const Sidebar = () =>{
                         </svg>
                     </button>
                 </Link>
-                <Link>
+                <Link to="/Certification">
                     <button class="p-2 text-sky-500 transition-colors duration-200 rounded-full bg-indigo-50 hover:text-slate-200 hover:bg-indigo-100 dark:hover:text-light dark:hover:bg-sky-600 dark:bg-dark focus:outline-none focus:bg-indigo-100 dark:focus:bg-sky-600 focus:ring-sky-500">
-                    <span class="sr-only">Gallery</span>
+                    <span class="sr-only">Certification</span>
                         <svg
                             class="w-7 h-7"
                             xmlns="http://www.w3.org/2000/svg"
