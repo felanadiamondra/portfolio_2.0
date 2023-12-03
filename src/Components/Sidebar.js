@@ -1,4 +1,4 @@
-import { Link, Outlet, Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import 'animate.css';
 import '../App.css';
 import Bio from "./Bio";
@@ -19,7 +19,7 @@ const Sidebar = () =>{
             <div class="flex-shrink-0">
                 <a
                 href="https://kamona-wd.github.io/kwd-dashboard/"
-                class="inline-block text-xl font-bold tracking-wider text-sky-500 uppercase dark:text-light"
+                class="inline-block text-xl font-bold tracking-wider text-blue_picton uppercase dark:text-light"
                 >
                 K-WD
                 </a>
@@ -29,7 +29,7 @@ const Sidebar = () =>{
                 <Link to='/'>
                     <button
                     href="#"
-                    class="p-2 text-sky-500 transition-colors duration-200 rounded-full bg-indigo-50 hover:text-slate-200 hover:bg-indigo-100 dark:hover:text-light dark:hover:bg-sky-600 dark:bg-dark focus:outline-none focus:bg-indigo-100 dark:focus:bg-sky-600 focus:ring-sky-500"
+                    class="p-2 text-blue_picton transition-colors duration-200 rounded-full bg-indigo-50 hover:text-slate-200 hover:bg-indigo-100 dark:hover:text-light dark:hover:bg-sky-600 dark:bg-dark focus:outline-none focus:bg-indigo-100 dark:focus:bg-sky-600 focus:ring-sky-500"
                     >
                     <span class="sr-only">Biography</span>
                     <svg
@@ -50,7 +50,7 @@ const Sidebar = () =>{
                 </Link>
                 <Link to='/Work'>
                     <button
-                    class="p-2 text-sky-500 transition-colors duration-200 rounded-full bg-indigo-50 hover:text-slate-200 hover:bg-indigo-100 dark:hover:text-light dark:hover:bg-sky-600 dark:bg-dark focus:outline-none focus:bg-indigo-100 dark:focus:bg-sky-600 focus:ring-sky-500"
+                    class="p-2 text-blue_picton transition-colors duration-200 rounded-full bg-indigo-50 hover:text-slate-200 hover:bg-indigo-100 dark:hover:text-light dark:hover:bg-sky-600 dark:bg-dark focus:outline-none focus:bg-indigo-100 dark:focus:bg-sky-600 focus:ring-sky-500"
                     >
                     <span class="sr-only">Work</span>
                     <svg
@@ -72,7 +72,7 @@ const Sidebar = () =>{
                 <Link to='/Education'>
                     <button
                     href="#"
-                    class="p-2 text-sky-500 transition-colors duration-200 rounded-full bg-indigo-50 hover:text-slate-200 hover:bg-indigo-100 dark:hover:text-light dark:hover:bg-sky-600 dark:bg-dark focus:outline-none focus:bg-indigo-100 dark:focus:bg-sky-600 focus:ring-sky-500"
+                    class="p-2 text-blue_picton transition-colors duration-200 rounded-full bg-indigo-50 hover:text-slate-200 hover:bg-indigo-100 dark:hover:text-light dark:hover:bg-sky-600 dark:bg-dark focus:outline-none focus:bg-indigo-100 dark:focus:bg-sky-600 focus:ring-sky-500"
                     >
                     <span class="sr-only">Education</span>
                     <svg
@@ -91,8 +91,8 @@ const Sidebar = () =>{
                     </svg>
                     </button>
                 </Link>
-                <Link to='/Skill'>
-                    <button class="p-2 text-sky-500 transition-colors duration-200 shadow-2xl rounded-full bg-indigo-50 hover:text-slate-200 hover:bg-indigo-100 dark:hover:text-light dark:hover:bg-sky-600 dark:bg-dark focus:outline-none focus:bg-indigo-100 dark:focus:bg-sky-600 focus:ring-sky-500">
+                <Link to='/Project'>
+                    <button class="p-2 text-blue_picton transition-colors duration-200 shadow-2xl rounded-full bg-indigo-50 hover:text-slate-200 hover:bg-indigo-100 dark:hover:text-light dark:hover:bg-sky-600 dark:bg-dark focus:outline-none focus:bg-indigo-100 dark:focus:bg-sky-600 focus:ring-sky-500">
                     <span class="sr-only">Skills</span>
                         <svg
                             class="w-7 h-7"
@@ -110,8 +110,8 @@ const Sidebar = () =>{
                         </svg>
                     </button>
                 </Link>
-                <Link to='/Project'>
-                    <button class="p-2 text-sky-500 transition-colors duration-200 rounded-full bg-indigo-50 hover:text-slate-200 hover:bg-indigo-100 dark:hover:text-light dark:hover:bg-sky-600 dark:bg-dark focus:outline-none focus:bg-indigo-100 dark:focus:bg-sky-600 focus:ring-sky-500">
+                <Link to='/Certification'>
+                    <button class="p-2 text-blue_picton transition-colors duration-200 rounded-full bg-indigo-50 hover:text-slate-200 hover:bg-indigo-100 dark:hover:text-light dark:hover:bg-sky-600 dark:bg-dark focus:outline-none focus:bg-indigo-100 dark:focus:bg-sky-600 focus:ring-sky-500">
                     <span class="sr-only">Project</span>
                         <svg
                             class="w-7 h-7"
@@ -129,8 +129,8 @@ const Sidebar = () =>{
                         </svg>
                     </button>
                 </Link>
-                <Link to="/Certification">
-                    <button class="p-2 text-sky-500 transition-colors duration-200 rounded-full bg-indigo-50 hover:text-slate-200 hover:bg-indigo-100 dark:hover:text-light dark:hover:bg-sky-600 dark:bg-dark focus:outline-none focus:bg-indigo-100 dark:focus:bg-sky-600 focus:ring-sky-500">
+                <Link to="/Skill">
+                    <button class="p-2 text-blue_picton transition-colors duration-200 rounded-full bg-indigo-50 hover:text-slate-200 hover:bg-indigo-100 dark:hover:text-light dark:hover:bg-sky-600 dark:bg-dark focus:outline-none focus:bg-indigo-100 dark:focus:bg-sky-600 focus:ring-sky-500">
                     <span class="sr-only">Certification</span>
                         <svg
                             class="w-7 h-7"
@@ -151,7 +151,7 @@ const Sidebar = () =>{
             </div>
             <form action="#" class="flex items-center justify-center flex-shrink-0">
                 <button
-                class="p-2 text-sky-500 transition-colors duration-200 rounded-full bg-indigo-50 hover:text-slate-200 hover:bg-indigo-100 dark:hover:text-light dark:hover:bg-sky-600 dark:bg-dark focus:outline-none focus:bg-indigo-100 dark:focus:bg-indigo-700 focus:ring-indigo-800"
+                class="p-2 text-blue_picton transition-colors duration-200 rounded-full bg-indigo-50 hover:text-slate-200 hover:bg-indigo-100 dark:hover:text-light dark:hover:bg-sky-600 dark:bg-dark focus:outline-none focus:bg-indigo-100 dark:focus:bg-indigo-700 focus:ring-indigo-800"
                 >
                 <span class="sr-only">Contact</span>
                 <svg
@@ -171,15 +171,15 @@ const Sidebar = () =>{
                 </button>
             </form>
             </nav>
-            <div class="ml-20 w-screen">
-            <Routes>
-                <Route path="/" element={<Bio/>}/>
-                <Route path="/Skill" element={<Skill/>}/>
-                <Route path="/Project" element={<Project/>}/>
-                <Route path="/Education" element={<Education/>}/>
-                <Route path="/Work" element={<Work/>}/>
-                <Route path="/Certification" element={<Certification/>}/>
-            </Routes>
+            <div class="w-full overflow-hidden">
+                <Routes>
+                    <Route path="/" element={<Bio/>}/>
+                    <Route path="/Skill" element={<Skill/>}/>
+                    <Route path="/Project" element={<Project/>}/>
+                    <Route path="/Education" element={<Education/>}/>
+                    <Route path="/Work" element={<Work/>}/>
+                    <Route path="/Certification" element={<Certification/>}/>
+                </Routes>
             </div>
             </aside>
         </div>

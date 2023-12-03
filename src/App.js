@@ -2,7 +2,7 @@ import Sidebar from './Components/Sidebar';
 
 function App() {
   return (
-    <div>   
+    <div className='overflow-hidden'>   
         <Sidebar/>
     </div>
   );
