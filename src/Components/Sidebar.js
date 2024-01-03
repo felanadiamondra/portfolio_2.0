@@ -172,13 +172,14 @@ const Sidebar = () =>{
             </form>
             </nav>
             <div class="w-full overflow-hidden">
+              
                 <Routes>
-                    <Route path="/" element={<Bio/>}/>
-                    <Route path="/Skill" element={<Skill/>}/>
-                    <Route path="/Project" element={<Project/>}/>
-                    <Route path="/Education" element={<Education/>}/>
-                    <Route path="/Work" element={<Work/>}/>
-                    <Route path="/Certification" element={<Certification/>}/>
+                    <Route path="/" element={<Bio />}/>
+                    <Route path="/Skill" element={<Skill />}/>
+                    <Route path="/Project" element={<Project />}/>
+                    <Route path="/Education" element={<Education />}/>
+                    <Route path="/Work" element={<Work />}/>
+                    <Route path="/Certification" element={<Certification />}/>
                 </Routes>
             </div>
             </aside>
