@@ -1,4 +1,21 @@
 const Education = () =>{
+    const educData = [
+        {
+            universityName : "ESTI",
+            path : "IDEV",
+            year : "2018 - 2021"
+        } ,
+        {
+            universityName : "ESTI",
+            path : "MSI",
+            year : "2021 - 2024"
+        },
+        {
+            universityName : "ESIEE-IT",
+            path : "MSI",
+            year : "2023 - 2024"
+        }
+    ]
     return(
     <div className="mx-20 ml-40 p-10">
         <div className="grid grid-cols-2 gap-4">
@@ -19,7 +36,7 @@ const Education = () =>{
                     <a>Download materials</a>
                     </div>
 
-                    <div className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-pink-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
+                    {/* <div className="transform transition cursor-pointer hover:-translate-y-2 ml-10 relative flex items-center px-6 py-4 bg-pink-600 text-white rounded mb-10 flex-col md:flex-row space-y-4 md:space-y-0">
                     <div className="w-5 h-5 bg-pink-600 absolute -left-10 transform -translate-x-2/4 rounded-full z-10 mt-2 md:mt-0"></div>
 
                     <div className="w-10 h-1 bg-pink-300 absolute -left-10 z-0"></div>
@@ -43,7 +60,7 @@ const Education = () =>{
                         <h3>Classroom</h3>
                     </div>
                     <a>Download materials</a>
-                    </div>
+                    </div> */}
                 </div>
                 {/* <section className="mt-4 text-center">Build with ❤️ by <a href="https://github.com/saadh393" target="_blank">Saad Hasan </a></section> */}
                 </div>

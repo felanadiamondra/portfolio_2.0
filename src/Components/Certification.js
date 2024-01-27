@@ -10,6 +10,8 @@ const Certification = () =>{
 
     return(
         <div class="mx-20 ml-40 p-10">
+            <h1 className="text-center mt-10 mb-10 font-bold text-blue_picton">My certificate</h1>
+
             <div class="grid grid-cols-4 gap-4">
                 { cert_name.map((cert, index) => {
                     return(

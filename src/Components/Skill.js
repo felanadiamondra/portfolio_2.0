@@ -16,8 +16,8 @@ const Skill = () => {
                          <li>Su</li>
                      </ul>
                  </div>
-                 <div class="h-40 bg-white bg-opacity-20 shadow-t-r rounded-xl">Mobile development</div>
-                 <div class="h-40 bg-white bg-opacity-20 shadow-b-l rounded-xl">Programming Language</div>
+                 <div class="h-40 bg-white bg-opacity-10 shadow-t-r rounded-xl ">Mobile development</div>
+                 <div class="h-40 bg-white bg-opacity-10 shadow-b-l rounded-xl">Programming Language</div>
                  <div class="col-span-2 bg-white bg-opacity-10 shadow-b-r rounded-xl">Database</div>
                  {/* <div class="h-40 bg-white bg-opacity-20 border-t-2 border-r-2 border-navy_blue rounded-xl">Mobile development</div>
                  <div class="h-40 bg-white bg-opacity-20 border-l-2 border-b-2 border-navy_blue rounded-xl">Programming Language</div>
