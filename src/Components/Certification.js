@@ -16,7 +16,7 @@ const Certification = () =>{
                 { cert_name.map((cert, index) => {
                     return(
                         <div key={index} class="h-44 bg-slate-400 transition delay-75 duration-300 ease-in-out hover:scale-125 hover:shadow-md">
-                            <img class="w-auto h-full " alt="" src={require(`../images/${cert}.png`)}/>
+                            <img class="w-auto h-full " alt="Felana Diamondra Randriamadison" src={require(`../images/${cert}.png`)}/>
                         </div>
                     )
                 })}
